@@ -1,6 +1,5 @@
 import sys
 
-
 num_input = sys.stdin.readline
 
 N = num_input().strip()
