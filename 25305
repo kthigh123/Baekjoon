@@ -1,0 +1,10 @@
+import sys
+
+input_num = sys.stdin.readline
+
+a, b = map(int, input_num().split())
+
+a = list(map(int, input_num().split()))
+a.sort(reverse=True)
+cut_line = a[b-1]
+print(cut_line)
