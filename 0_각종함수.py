@@ -25,3 +25,5 @@ def counting(arr):
 a = [3, 1, 2, 5, 4, 6]
 b = [6, 5, 4, 3, 2, 1]
 c = [5, 5, 3, 3, 1, 1]
+
+lih = [k for k,v in c.items() if max(c.values()) == v] # 리스트 컴프리헨션 이용
